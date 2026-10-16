@@ -103,6 +103,16 @@ button, input, textarea { font-family: inherit; font-size: inherit; }
   opacity: 0.4;
 }
 
+.bg-abstract {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: -1;
+  background: radial-gradient(circle at 30% 30%, rgba(59,130,246,0.08), transparent 70%),
+              repeating-linear-gradient(45deg, rgba(255,255,255,0.02) 0px, rgba(255,255,255,0.02) 1px, transparent 1px, transparent 12px);
+  opacity: 0.5;
+}
+
 .container {
   width: 90%;
   max-width: 1160px;

@@ -5,187 +5,175 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Matěj Janoška | Osobní vizitka – Fotbalista & Budoucí elektrotechnik</title>
   <meta name="description" content="Osobní vizitka Matěje Janošky – 18letého fotbalisty z Vlčkovic, studenta techniky a budoucího revizního technika elektrotechniky.">
-  
-  <!-- Google Fonts: Plus Jakarta Sans & Outfit -->
+
+  <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700;800&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-  
-  <!-- Font Awesome Icons -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-  
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700;800;900&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <!-- Background Glow & Grid Canvas Elements -->
-  <div class="bg-glow glow-1"></div>
-  <div class="bg-glow glow-2"></div>
-  <div class="bg-grid"></div>
+  <!-- Ambient Background -->
+  <div class="bg-noise"></div>
 
-  <!-- Header / Navigation -->
+  <!-- ═══════════════════════════════════════
+       NAVIGATION
+  ═══════════════════════════════════════ -->
   <header class="header" id="navbar">
     <div class="container nav-container">
       <a href="#hero" class="logo">
-        <span class="logo-mark"><i class="fa-solid fa-bolt"></i></span>
-        <span class="logo-text">Matěj Janoška</span>
+        <span class="logo-mark">MJ</span>
       </a>
 
       <nav class="nav-menu" id="nav-menu">
         <ul class="nav-list">
-          <li><a href="#hero" class="nav-link active">Domů</a></li>
-          <li><a href="#about" class="nav-link">O mně</a></li>
-          <li><a href="#interests" class="nav-link">Co mě baví</a></li>
-          <li><a href="#goals" class="nav-link">Cíle</a></li>
-          <li><a href="#contact" class="nav-link">Kontakt</a></li>
+          <li><a href="#hero"       class="nav-link">Domů</a></li>
+          <li><a href="#about"      class="nav-link">O mně</a></li>
+          <li><a href="#interests"  class="nav-link">Co mě baví</a></li>
+          <li><a href="#goals"      class="nav-link">Cíle</a></li>
+          <li><a href="#contact"    class="nav-link">Kontakt</a></li>
         </ul>
       </nav>
 
       <div class="nav-actions">
-        <!-- Theme Switcher -->
-        <button id="theme-toggle" class="icon-btn" aria-label="Přepnout motiv" title="Přepnout tmavý/světlý režim">
+        <button id="theme-toggle" class="icon-btn" aria-label="Přepnout motiv">
           <i class="fa-solid fa-sun icon-sun"></i>
           <i class="fa-solid fa-moon icon-moon"></i>
         </button>
-
-        <!-- Mobile Hamburger Toggle -->
         <button id="menu-toggle" class="hamburger-btn" aria-label="Otevřít menu">
-          <span></span>
-          <span></span>
-          <span></span>
+          <span></span><span></span><span></span>
         </button>
       </div>
     </div>
   </header>
 
   <main>
-    <!-- 1. Hero Section -->
+    <!-- ═══════════════════════════════════════
+         HERO
+    ═══════════════════════════════════════ -->
     <section class="hero-section" id="hero">
       <div class="container hero-container">
+
+        <!-- Left: Text -->
         <div class="hero-content reveal">
-          <div class="badge">
-            <span class="badge-dot"></span>
-            <span>18 let • Vlčkovice • Sport & Technika</span>
+          <div class="hero-badge">
+            <span class="badge-pulse"></span>
+            <span>18 let · Vlčkovice · Sport & Technika</span>
           </div>
+
           <h1 class="hero-title">
-            Matěj <span class="text-gradient">Janoška</span>
+            Matěj<br><span class="text-accent">Janoška</span>
           </h1>
-          <p class="hero-subtitle">
-            <i class="fa-solid fa-futbol"></i> Fotbalista 
-            <span class="sep">•</span> 
-            <i class="fa-solid fa-graduation-cap"></i> Student SPŠ, SOŠ a SOU Hradební 
-            <span class="sep">•</span> 
-            <i class="fa-solid fa-bolt"></i> Budoucí elektrotechnik
+
+          <p class="hero-sub">
+            <span><i class="fa-solid fa-futbol"></i> Fotbalista</span>
+            <span class="dot">·</span>
+            <span><i class="fa-solid fa-graduation-cap"></i> Student SPŠ Hradební</span>
+            <span class="dot">·</span>
+            <span><i class="fa-solid fa-bolt"></i> Budoucí elektrotechnik</span>
           </p>
+
           <p class="hero-desc">
-            18letý fotbalista z Vlčkovic. Miluju sport, techniku a zábavu. Směřuji ke studiu elektrotechniky a sním o profesi revizního technika.
+            18letý fotbalista z Vlčkovic. Miluju sport, techniku a zábavu.<br>
+            Směřuji ke studiu elektrotechniky a sním o profesi revizního technika.
           </p>
+
           <div class="hero-cta">
-            <a href="#about" class="btn btn-primary">
-              <span>O mně</span>
-              <i class="fa-solid fa-arrow-down"></i>
-            </a>
-            <a href="#contact" class="btn btn-outline">
-              <span>Kontakt</span>
-              <i class="fa-regular fa-paper-plane"></i>
-            </a>
+            <a href="#about"   class="btn btn-primary">O mně <i class="fa-solid fa-arrow-down"></i></a>
+            <a href="#contact" class="btn btn-outline">Kontakt <i class="fa-regular fa-envelope"></i></a>
           </div>
 
           <div class="hero-stats">
-            <div class="stat-item">
-              <span class="stat-number">18</span>
-              <span class="stat-label">Let</span>
+            <div class="stat">
+              <span class="stat-n">18</span>
+              <span class="stat-l">Let</span>
             </div>
-            <div class="stat-divider"></div>
-            <div class="stat-item">
-              <span class="stat-number">100%</span>
-              <span class="stat-label">Zápal & Energie</span>
+            <div class="stat-sep"></div>
+            <div class="stat">
+              <span class="stat-n">#1</span>
+              <span class="stat-l">Cíl: Revizní technik</span>
             </div>
-            <div class="stat-divider"></div>
-            <div class="stat-item">
-              <span class="stat-number">#1</span>
-              <span class="stat-label">Cíl: Revizní technik</span>
+            <div class="stat-sep"></div>
+            <div class="stat">
+              <span class="stat-n">100%</span>
+              <span class="stat-l">Zápal & Energie</span>
             </div>
           </div>
         </div>
 
-        <div class="hero-visual reveal delay-1">
-          <div class="visual-card">
-            <div class="visual-card-inner">
-              <div class="card-glow"></div>
-              <div class="card-art">
-                <!-- Abstract Vector Shape representing Football & Electricity -->
-                <div class="floating-badge badge-football">
-                  <i class="fa-solid fa-futbol"></i>
-                  <span>Týmový duch</span>
-                </div>
-                <div class="floating-badge badge-tech">
-                  <i class="fa-solid fa-bolt-lightning"></i>
-                  <span>Elektro vášeň</span>
-                </div>
-                <div class="profile-avatar-placeholder">
-                  <div class="avatar-circle">
-                    <span class="avatar-initials">MJ</span>
-                  </div>
-                  <div class="pulse-ring"></div>
-                </div>
-                <div class="card-status">
-                  <span class="status-indicator"></span>
-                  <span>Otevřený novým výzvám</span>
-                </div>
-              </div>
+        <!-- Right: Profile Photo -->
+        <div class="hero-photo-wrap reveal delay-1">
+          <div class="photo-frame">
+            <img
+              src="foto.png"
+              alt="Profilová fotografie Matěje Janošky"
+              class="profile-photo"
+              loading="eager"
+            >
+            <div class="photo-tag tag-football">
+              <i class="fa-solid fa-futbol"></i> Týmový hráč
+            </div>
+            <div class="photo-tag tag-tech">
+              <i class="fa-solid fa-bolt"></i> Elektro vášeň
             </div>
           </div>
         </div>
+
       </div>
     </section>
 
-    <!-- 2. Section About Me -->
+    <!-- ═══════════════════════════════════════
+         O MNĚ
+    ═══════════════════════════════════════ -->
     <section class="section about-section" id="about">
       <div class="container">
         <div class="section-header reveal">
           <span class="section-tag"><i class="fa-solid fa-user"></i> Kdo jsem</span>
           <h2 class="section-title">O mně</h2>
-          <p class="section-subtitle">Kombinace sportovní vytrvalosti, technického myšlení a smyslu pro humor.</p>
+          <p class="section-sub">Kombinace sportovní vytrvalosti, technického myšlení a smyslu pro humor.</p>
         </div>
 
         <div class="about-grid">
-          <div class="about-card main-story reveal">
-            <div class="story-tag"><i class="fa-solid fa-location-dot"></i> Vlčkovice & Hradec Králové</div>
+          <div class="about-story reveal">
+            <div class="story-location"><i class="fa-solid fa-location-dot"></i> Vlčkovice & Hradec Králové</div>
             <h3>Sportovec tělem, technik hlavou</h3>
             <p>
               Jmenuji se <strong>Matěj Janoška</strong>, je mi 18 let a žiji v malebných Vlčkovicích. Od malička mě provází sportovní duch, chuť se hýbat a neustále se v něčem posouvat dál.
             </p>
             <p>
-              V současnosti studuji na <strong>SPŠ, SOŠ a SOU Hradební</strong>, kde získávám pevné základy technického vzdělání. Už teď mám jasnou vizi do budoucna: po maturitě chci pokračovat <strong>studiem elektrotechniky na vysoké škole</strong>.
+              Studuji na <strong>SPŠ, SOŠ a SOU Hradební</strong>, kde získávám pevné základy technického vzdělání. Po maturitě plánuji pokračovat <strong>studiem elektrotechniky na vysoké škole</strong>.
             </p>
             <p>
-              Mým velkým snem a profesním cílem je stát se <strong>revizním technikem</strong> – pracovat v oboru s vysokou odpovědností, kde záleží na přesnosti, bezpečnosti a důkladných odborných znalostech.
+              Mým velkým snem a profesním cílem je stát se <strong>revizním technikem</strong> – pracovat v oboru s vysokou odpovědností, kde záleží na přesnosti a bezpečnosti.
             </p>
-            <p class="story-highlight">
-              <i class="fa-solid fa-quote-left"></i> Jsem člověk pro každou legraci, rád trávím čas s přáteli a do všeho jdu s plným nasazením a úsměvem.
-            </p>
+            <blockquote class="about-quote">
+              <i class="fa-solid fa-quote-left"></i>
+              Jsem člověk pro každou legraci, rád trávím čas s přáteli a do všeho jdu s plným nasazením a úsměvem.
+            </blockquote>
           </div>
 
           <div class="about-features">
             <div class="feature-box reveal delay-1">
-              <div class="feature-icon"><i class="fa-solid fa-futbol"></i></div>
-              <div class="feature-content">
+              <div class="feat-icon football"><i class="fa-solid fa-futbol"></i></div>
+              <div>
                 <h4>Fotbal a pohyb</h4>
                 <p>Na hřišti se učím disciplíně, vytrvalosti i týmové souhře, což přenáším do běžného života.</p>
               </div>
             </div>
-
             <div class="feature-box reveal delay-2">
-              <div class="feature-icon"><i class="fa-solid fa-graduation-cap"></i></div>
-              <div class="feature-content">
+              <div class="feat-icon tech"><i class="fa-solid fa-bolt"></i></div>
+              <div>
                 <h4>Studium a technika</h4>
-                <p>Aktuálně na SPŠ, SOŠ a SOU Hradební. Fascinují mě elektrické obvody, bezpečnost a moderní technologie.</p>
+                <p>SPŠ Hradební a zápal pro elektrotechniku – základ pro budoucí praxi revizního technika.</p>
               </div>
             </div>
-
             <div class="feature-box reveal delay-3">
-              <div class="feature-icon"><i class="fa-solid fa-face-smile-beam"></i></div>
-              <div class="feature-content">
+              <div class="feat-icon fun"><i class="fa-solid fa-face-smile-beam"></i></div>
+              <div>
                 <h4>Člověk pro zábavu</h4>
                 <p>Nekazím žádnou legraci, sázím na přátelskou atmosféru a pozitivní přístup ke každé situaci.</p>
               </div>
@@ -195,255 +183,173 @@
       </div>
     </section>
 
-    <!-- 3. Section What I Do / Interests -->
+    <!-- ═══════════════════════════════════════
+         CO MĚ BAVÍ
+    ═══════════════════════════════════════ -->
     <section class="section interests-section" id="interests">
       <div class="container">
         <div class="section-header reveal">
           <span class="section-tag"><i class="fa-solid fa-fire"></i> Moje pilíře</span>
           <h2 class="section-title">Co dělám a co mě baví</h2>
-          <p class="section-subtitle">Čtyři oblasti, které formují můj každý den.</p>
+          <p class="section-sub">Čtyři oblasti, které formují můj každý den.</p>
         </div>
 
         <div class="interests-grid">
-          <!-- Card 1: Football -->
-          <div class="interest-card reveal">
-            <div class="card-icon-wrap football">
-              <i class="fa-solid fa-futbol"></i>
-            </div>
+          <div class="int-card reveal">
+            <div class="int-icon football"><i class="fa-solid fa-futbol"></i></div>
             <h3>Fotbal</h3>
-            <p class="interest-lead">Sport, tým, disciplína a pohyb.</p>
-            <p>
-              Fotbal pro mě není jen koníček, ale životní styl. Tréninky a zápasy mě učí držet tempo, bojovat za tým do poslední minuty a nikdy se nevzdávat při neúspěchu.
-            </p>
-            <div class="tags">
-              <span>#Tým</span>
-              <span>#Vytrvalost</span>
-              <span>#Kondice</span>
-            </div>
+            <p class="int-lead">Sport, tým, disciplína a pohyb.</p>
+            <p>Fotbal pro mě není jen koníček, ale životní styl. Tréninky a zápasy mě učí bojovat za tým do poslední minuty a nikdy se nevzdávat při neúspěchu.</p>
+            <div class="int-tags"><span>#Tým</span><span>#Vytrvalost</span><span>#Kondice</span></div>
           </div>
 
-          <!-- Card 2: Electrical Engineering -->
-          <div class="interest-card reveal delay-1">
-            <div class="card-icon-wrap tech">
-              <i class="fa-solid fa-bolt"></i>
-            </div>
+          <div class="int-card reveal delay-1">
+            <div class="int-icon tech"><i class="fa-solid fa-bolt"></i></div>
             <h3>Technika & Elektro</h3>
-            <p class="interest-lead">Zájem o budoucí studium a revizní praxi.</p>
-            <p>
-              Zajímá mě, jak věci fungují pod povrchem. Elektrotechnika má obrovskou budoucnost – od bezpečných rozvodů po moderní energetiku a automatizaci.
-            </p>
-            <div class="tags">
-              <span>#Elektrotechnika</span>
-              <span>#Revize</span>
-              <span>#Inovace</span>
-            </div>
+            <p class="int-lead">Zájem o budoucí studium a revizní praxi.</p>
+            <p>Zajímá mě, jak věci fungují pod povrchem. Elektrotechnika má obrovskou budoucnost – od bezpečných rozvodů po moderní energetiku a automatizaci.</p>
+            <div class="int-tags"><span>#Elektrotechnika</span><span>#Revize</span><span>#Inovace</span></div>
           </div>
 
-          <!-- Card 3: School -->
-          <div class="interest-card reveal delay-2">
-            <div class="card-icon-wrap school">
-              <i class="fa-solid fa-school"></i>
-            </div>
+          <div class="int-card reveal delay-2">
+            <div class="int-icon school"><i class="fa-solid fa-school"></i></div>
             <h3>Škola</h3>
-            <p class="interest-lead">Studium na SPŠ, SOŠ a SOU Hradební.</p>
-            <p>
-              Škola, která mi dává jak teoretické znalosti, tak praktický technický rozhled. Tvořím si zde základy pro úspěšné zvládnutí vysokoškolského studia.
-            </p>
-            <div class="tags">
-              <span>#Hradební</span>
-              <span>#Vzdělání</span>
-              <span>#Příprava</span>
-            </div>
+            <p class="int-lead">Studium na SPŠ, SOŠ a SOU Hradební.</p>
+            <p>Škola, která mi dává jak teoretické znalosti, tak praktický technický rozhled. Stavím si zde základy pro úspěšné zvládnutí vysokoškolského studia.</p>
+            <div class="int-tags"><span>#Hradební</span><span>#Vzdělání</span><span>#Příprava</span></div>
           </div>
 
-          <!-- Card 4: Fun -->
-          <div class="interest-card reveal delay-3">
-            <div class="card-icon-wrap fun">
-              <i class="fa-solid fa-champagne-glasses"></i>
-            </div>
+          <div class="int-card reveal delay-3">
+            <div class="int-icon fun"><i class="fa-solid fa-champagne-glasses"></i></div>
             <h3>Zábava & Přátelé</h3>
-            <p class="interest-lead">Otevřený člověk pro každou legraci.</p>
-            <p>
-              Život není jen o povinnostech. Mám rád společnost fajn lidí, smích, cestování a zážitky, na které se nezapomíná. Rád poznávám nové lidi.
-            </p>
-            <div class="tags">
-              <span>#Parta</span>
-              <span>#Energie</span>
-              <span>#Pozitivita</span>
-            </div>
+            <p class="int-lead">Otevřený člověk pro každou legraci.</p>
+            <p>Mám rád společnost fajn lidí, smích, cestování a zážitky, na které se nezapomíná. Rád poznávám nové lidi a nové věci.</p>
+            <div class="int-tags"><span>#Parta</span><span>#Energie</span><span>#Pozitivita</span></div>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- 4. Section Goals -->
+    <!-- ═══════════════════════════════════════
+         CÍLE
+    ═══════════════════════════════════════ -->
     <section class="section goals-section" id="goals">
       <div class="container">
         <div class="section-header reveal">
           <span class="section-tag"><i class="fa-solid fa-bullseye"></i> Kam směřuji</span>
           <h2 class="section-title">Moje cíle</h2>
-          <p class="section-subtitle">Kroky, kterými přeměňuji své sny v konkrétní realitu.</p>
+          <p class="section-sub">Kroky, kterými přeměňuji své sny v konkrétní realitu.</p>
         </div>
 
         <div class="timeline">
-          <!-- Step 1 -->
-          <div class="timeline-item reveal">
-            <div class="timeline-dot">
-              <i class="fa-solid fa-certificate"></i>
-            </div>
-            <div class="timeline-content">
-              <span class="timeline-step">Krok 1</span>
+          <div class="tl-item reveal">
+            <div class="tl-dot"><i class="fa-solid fa-certificate"></i></div>
+            <div class="tl-card">
+              <span class="tl-step">Krok 1</span>
               <h3>Úspěšně dokončit střední školu</h3>
-              <p>Završit studium na SPŠ, SOŠ a SOU Hradební maturitní zkouškou a získat potřebné odborné zkoušky a certifikace.</p>
+              <p>Završit studium na SPŠ, SOŠ a SOU Hradební maturitní zkouškou a získat potřebné odborné znalosti.</p>
             </div>
           </div>
 
-          <!-- Step 2 -->
-          <div class="timeline-item reveal delay-1">
-            <div class="timeline-dot">
-              <i class="fa-solid fa-university"></i>
-            </div>
-            <div class="timeline-content">
-              <span class="timeline-step">Krok 2</span>
+          <div class="tl-item reveal delay-1">
+            <div class="tl-dot"><i class="fa-solid fa-university"></i></div>
+            <div class="tl-card">
+              <span class="tl-step">Krok 2</span>
               <h3>Studium elektrotechniky na VŠ</h3>
-              <p>Nastoupit na vysokou školu, prohloubit znalosti silnoproudu, slaboproudu a projektování elektrických zařízení.</p>
+              <p>Prohloubit znalosti silnoproudu, slaboproudu a projektování elektrických zařízení na vysoké škole.</p>
             </div>
           </div>
 
-          <!-- Step 3 -->
-          <div class="timeline-item reveal delay-2">
-            <div class="timeline-dot active-goal">
-              <i class="fa-solid fa-shield-halved"></i>
-            </div>
-            <div class="timeline-content">
-              <span class="timeline-step">Vysněná meta</span>
+          <div class="tl-item reveal delay-2">
+            <div class="tl-dot tl-dot--star"><i class="fa-solid fa-shield-halved"></i></div>
+            <div class="tl-card tl-card--highlight">
+              <span class="tl-step tl-step--highlight">Vysněná meta</span>
               <h3>Stát se revizním technikem</h3>
-              <p>Složit zkoušky odborné způsobilosti a stát se autorizovaným revizním technikem elektrických zařízení s vlastní praxí a odpovědností.</p>
+              <p>Složit zkoušky odborné způsobilosti a stát se autorizovaným revizním technikem elektrických zařízení s vlastní praxí.</p>
             </div>
           </div>
 
-          <!-- Step 4 -->
-          <div class="timeline-item reveal delay-3">
-            <div class="timeline-dot">
-              <i class="fa-solid fa-medal"></i>
-            </div>
-            <div class="timeline-content">
-              <span class="timeline-step">Průběžný cíl</span>
+          <div class="tl-item reveal delay-3">
+            <div class="tl-dot"><i class="fa-solid fa-medal"></i></div>
+            <div class="tl-card">
+              <span class="tl-step">Průběžný cíl</span>
               <h3>Dál se rozvíjet ve fotbale</h3>
-              <p>Udržovat si špičkovou kondici, zlepšovat techniku i taktické myšlení a sbírat se svým týmem vítězství a trofeje.</p>
+              <p>Udržovat si špičkovou kondici, zlepšovat techniku i taktické myšlení a sbírat se svým týmem vítězství.</p>
             </div>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- 5. Section Contact -->
+    <!-- ═══════════════════════════════════════
+         KONTAKT
+    ═══════════════════════════════════════ -->
     <section class="section contact-section" id="contact">
       <div class="container">
         <div class="section-header reveal">
           <span class="section-tag"><i class="fa-solid fa-envelope"></i> Napiš mi</span>
           <h2 class="section-title">Kontakt</h2>
-          <p class="section-subtitle">Máš dotaz, nápad na spolupráci nebo si chceš jen pokecat? Napiš zprávu!</p>
+          <p class="section-sub">Máš dotaz, nápad nebo si chceš jen pokecat? Napiš mi!</p>
         </div>
 
-        <div class="contact-wrapper">
-          <!-- Info Column -->
-          <div class="contact-info reveal">
+        <div class="contact-block reveal">
+          <div class="contact-left">
             <h3>Pojďme se spojit</h3>
-            <p>Jsem otevřený novým příležitostem, technickým diskusím i sportovním výzvám.</p>
+            <p>Jsem otevřený novým příležitostem, technickým diskusím i sportovním výzvám. Neváhej mi napsat na e-mail.</p>
 
-            <div class="contact-details">
-              <div class="contact-item">
-                <div class="c-icon"><i class="fa-solid fa-envelope"></i></div>
-                <div>
-                  <span class="c-label">E-mail (zástupný)</span>
-                  <a href="mailto:matej.janoska@example.cz" class="c-value">matej.janoska@example.cz</a>
-                </div>
-              </div>
-
-              <div class="contact-item">
-                <div class="c-icon"><i class="fa-solid fa-location-dot"></i></div>
-                <div>
-                  <span class="c-label">Bydliště</span>
-                  <span class="c-value">Vlčkovice, Česká republika</span>
-                </div>
-              </div>
-
-              <div class="contact-item">
-                <div class="c-icon"><i class="fa-solid fa-graduation-cap"></i></div>
-                <div>
-                  <span class="c-label">Škola</span>
-                  <span class="c-value">SPŠ, SOŠ a SOU Hradební</span>
-                </div>
+            <div class="contact-email-row">
+              <div class="contact-email-icon"><i class="fa-solid fa-envelope"></i></div>
+              <div>
+                <span class="contact-email-label">E-mail</span>
+                <a href="mailto:mat.janoska@gmail.com" class="contact-email-value">mat.janoska@gmail.com</a>
               </div>
             </div>
 
-            <!-- Social Media Icons (Placeholders) -->
-            <div class="social-links-wrap">
-              <h4>Najdeš mě na sítích:</h4>
-              <div class="social-links">
-                <a href="#" class="social-btn" aria-label="E-mail" title="E-mail"><i class="fa-solid fa-envelope"></i></a>
-                <a href="#" class="social-btn" aria-label="Instagram" title="Instagram"><i class="fa-brands fa-instagram"></i></a>
-                <a href="#" class="social-btn" aria-label="LinkedIn" title="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+            <div class="contact-detail-row">
+              <div class="contact-detail-icon"><i class="fa-solid fa-location-dot"></i></div>
+              <div>
+                <span class="contact-email-label">Bydliště</span>
+                <span class="contact-email-value">Vlčkovice, Česká republika</span>
+              </div>
+            </div>
+
+            <div class="contact-detail-row">
+              <div class="contact-detail-icon"><i class="fa-solid fa-graduation-cap"></i></div>
+              <div>
+                <span class="contact-email-label">Škola</span>
+                <span class="contact-email-value">SPŠ, SOŠ a SOU Hradební</span>
               </div>
             </div>
           </div>
 
-          <!-- Form Column -->
-          <div class="contact-form-wrap reveal delay-1">
-            <form id="contact-form" class="contact-form" novalidate>
-              <div class="form-group">
-                <label for="name">Tvoje jméno a příjmení</label>
-                <div class="input-wrap">
-                  <i class="fa-solid fa-user"></i>
-                  <input type="text" id="name" name="name" placeholder="Jan Novák" required>
-                </div>
-              </div>
-
-              <div class="form-group">
-                <label for="email">Tvůj e-mail</label>
-                <div class="input-wrap">
-                  <i class="fa-solid fa-at"></i>
-                  <input type="email" id="email" name="email" placeholder="jan.novak@email.cz" required>
-                </div>
-              </div>
-
-              <div class="form-group">
-                <label for="message">Zpráva</label>
-                <div class="input-wrap">
-                  <i class="fa-solid fa-message"></i>
-                  <textarea id="message" name="message" rows="5" placeholder="Ahoj Matěji, píšu ohledně..." required></textarea>
-                </div>
-              </div>
-
-              <button type="submit" class="btn btn-primary btn-block">
-                <span>Odeslat zprávu</span>
-                <i class="fa-solid fa-paper-plane"></i>
-              </button>
-
-              <div id="form-feedback" class="form-feedback"></div>
-            </form>
+          <div class="contact-right">
+            <a href="mailto:mat.janoska@gmail.com" class="btn-mail">
+              <i class="fa-regular fa-envelope"></i>
+              <span>Napiš mi na e-mail</span>
+              <i class="fa-solid fa-arrow-right btn-arrow"></i>
+            </a>
+            <p class="mail-hint">Kliknutím se otevře tvoje e-mailová aplikace s adresou příjemce předvyplněnou.</p>
+            <div class="mail-address-display">
+              <span>mat.janoska@gmail.com</span>
+            </div>
           </div>
         </div>
       </div>
     </section>
   </main>
 
-  <!-- Footer -->
+  <!-- ═══════════════════════════════════════
+       FOOTER
+  ═══════════════════════════════════════ -->
   <footer class="footer">
-    <div class="container footer-content">
+    <div class="container footer-inner">
       <div class="footer-left">
-        <a href="#hero" class="footer-logo">
-          <i class="fa-solid fa-bolt"></i> Matěj Janoška
-        </a>
-        <p class="footer-copy">© 2026 Matěj Janoška. Všechna práva vyhrazena.</p>
+        <span class="footer-logo">MJ</span>
+        <p class="footer-copy">© 2026 Matěj Janoška</p>
       </div>
-      <div class="footer-right">
-        <a href="#hero" class="back-to-top" title="Nahoru">
-          <span>Nahoru</span>
-          <i class="fa-solid fa-arrow-up"></i>
-        </a>
-      </div>
+      <a href="#hero" class="back-top">
+        Nahoru <i class="fa-solid fa-arrow-up"></i>
+      </a>
     </div>
   </footer>
 

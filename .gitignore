@@ -1,0 +1,16 @@
+# Environment & secrets
+.env
+.env.*
+*.local
+
+# OS & temporary files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editors & IDEs
+.vscode/
+.idea/
+*.suo
+*.user
+*.swp

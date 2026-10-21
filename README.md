@@ -14,7 +14,7 @@ Web je rozdělen do 6 přehledných sekcí s intuitivní navigací:
    - Software & IT nástroje (CAD, Office, webové technologie, Git),
    - Jazyky & Komunikace (Čeština C2, Angličtina B1),
    - Osobní přednosti (spolehlivost, týmovost, samostatnost).
-4. **Moje projekty a úspěchy:** Ukázky praktických a studijních výstupů doplněné o **interaktivní filtr** (Elektrotechnika, Web & IT, Sport & Úspěchy).
+4. **Moje projekty a úspěchy:** Ukázky praktických a studijních výstupů doplněné o **interaktivní filtr** (Powerent ve vývoji, tvorba tohoto webového portfolia, dlouhodobá fotbalová aktivita a praktická elektro měření).
 5. **Moje budoucnost:** Kariérní časová osa směřující od maturity přes VŠ až po autorizovaného revizního technika.
 6. **Kontakt:** Přehledný kontaktní blok s přímým odkazem na e-mail (`mailto:`), odkazem na GitHub repozitář a profilem.
 

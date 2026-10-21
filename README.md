@@ -7,7 +7,7 @@ Moderní, plně responzivní a profesionální studentské portfolio a digitáln
 ## 🚀 Klíčové vlastnosti a obsah
 
 Web je rozdělen do 6 přehledných sekcí s intuitivní navigací:
-1. **Úvodní představení (Hero):** Představení studenta, lokalita (Praha, ČR), profesní motto, rychlé statistiky a hlavní profilová fotografie.
+1. **Úvodní představení (Hero):** Představení studenta, profesní motto, rychlé statistiky a hlavní profilová fotografie.
 2. **O mně:** Vyvážený profil kombinující technické myšlení, sportovní disciplínu z fotbalu a pozitivní týmový přístup.
 3. **Moje dovednosti:** Strukturovaný přehled znalostí rozdělený do 4 kategorií:
    - Elektrotechnika & Praxe (rozvody, schémata, měření, bezpečnost),
